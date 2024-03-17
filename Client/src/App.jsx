@@ -2,6 +2,8 @@ import React from 'react'
 import { Route, Routes, BrowserRouter, Link } from 'react-router-dom';
 import { Openailogo } from './assets';
 import { BuildPost, Home } from './Pages';
+import LandingPage from './LandingPage';
+import SignupPage from './SignupPage';
 
 const App = () => {
   return (

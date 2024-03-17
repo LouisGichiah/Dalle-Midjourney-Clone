@@ -1,9 +1,11 @@
 import Home from './Home';
 import BuildPost from './BuildPost';
-import Landing from './Landing';
+import LandingPage from './Landing';
+import SignupPage from './Signuppage';
 
 export {
     Home,
-    BuildPost
-    Landing
+    BuildPost,
+    LandingPage,
+    SignupPage
 }
