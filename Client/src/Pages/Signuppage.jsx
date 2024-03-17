@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const SignupPage = () => {
+const Signuppage = () => {
   const [formData, setFormData] = useState({
     email: '',
     firstName: '',
@@ -48,4 +48,4 @@ const SignupPage = () => {
   );
 };
 
-export default SignupPage;
+export default Signuppage;

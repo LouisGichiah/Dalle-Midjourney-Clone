@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const LandingPage = () => {
+const Landing = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen">
       <h1 className="text-3xl font-bold mb-4">Welcome to Your App</h1>
@@ -17,4 +17,4 @@ const LandingPage = () => {
   );
 };
 
-export default LandingPage;
+export default Landing;

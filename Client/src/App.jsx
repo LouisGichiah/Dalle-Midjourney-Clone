@@ -1,9 +1,7 @@
 import React from 'react'
 import { Route, Routes, BrowserRouter, Link } from 'react-router-dom';
 import { Openailogo } from './assets';
-import { BuildPost, Home } from './Pages';
-import LandingPage from './LandingPage';
-import SignupPage from './SignupPage';
+import { BuildPost, Home, Landing, Signuppage } from './Pages';
 
 const App = () => {
   return (
@@ -21,6 +19,8 @@ const App = () => {
         <Routes>
           <Route path='/' element={<Home/>} />
           <Route path='/build-post' element={<BuildPost/>} />
+          <Route path="/" element={<Landing />} />
+          <Route path="/signup" element={<Signuppage />} />
         </Routes>
       </main>
     </BrowserRouter>
